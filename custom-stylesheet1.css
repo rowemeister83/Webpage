@@ -1,4 +1,7 @@
 body {
-    colour: rgb(120, 120, 207)
-    
-}
+    background-color: rgb(23, 23, 48);
+  }
+  h1 {
+    color: rgb(0, 128, 0);
+    margin-left: 56px;
+  }
