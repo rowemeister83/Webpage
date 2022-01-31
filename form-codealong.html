@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Stuff</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <form method="get" action="./search.html">
+        <h3>GET Form</h3>
+        <input name="query" type="text">
+        <button type="submit">GET</button>
+    </form>
+    <form method="post" action="./mailform.php">
+        <h3>Mail Form</h3>
+        <input name="customer" type="text">
+        <input name="email addresss" type="text">
+        <input name="Message" type="text">
+        <button type="submit">SEND</button>
+    </form>
+    <hr/>
+    <form>
+        <h1>Mor Inputs</h1>
+        <input type="checkbox" name="check1"
+        value="1"/> 1
+        <input type="checkbox" name="check2"
+        value="2"/> 2
+        <fieldset>
+            <legend>Question 1:</legend>
+            <input type="radio" name="choice"
+            value="a"/>a
+            <input type="radio" name="choice"
+            value="b"/>b
+            <input type="radio" name="choice"
+            value="c"/>c
+            <input type="radio" name="choice"
+            value="d"/>d
+        </fieldset>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+</body>
+</html>
